@@ -1,0 +1,336 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AMR Awareness</title>
+
+    <meta
+        name="description"
+        content="Learn about antimicrobial resistance (AMR), take the AMR pledge, explore press releases, and upload checkpoint photos."
+    >
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Website Header -->
+    <header>
+        <h1>AMR Awareness</h1>
+        <p>
+            Together, let us act responsibly to prevent antimicrobial resistance
+            and protect the effectiveness of medicines for everyone.
+        </p>
+    </header>
+
+    <!-- Main Navigation -->
+    <nav aria-label="Main navigation">
+        <button
+            type="button"
+            class="active"
+            data-tab="about-amr"
+            aria-selected="true"
+        >
+            About AMR
+        </button>
+
+        <button
+            type="button"
+            data-tab="pledge"
+            aria-selected="false"
+        >
+            Pledge
+        </button>
+
+        <button
+            type="button"
+            data-tab="press-release"
+            aria-selected="false"
+        >
+            Press-Release
+        </button>
+
+        <button
+            type="button"
+            data-tab="upload-checkpoint"
+            aria-selected="false"
+        >
+            Upload Your Checkpoint
+        </button>
+    </nav>
+
+    <main>
+
+        <!-- TAB 1: ABOUT AMR -->
+        <section
+            id="about-amr"
+            class="tab-content active"
+        >
+            <h2>About Antimicrobial Resistance (AMR)</h2>
+
+            <div class="card">
+                <h3>What is AMR?</h3>
+
+                <p>
+                    Antimicrobial resistance (AMR) occurs when bacteria,
+                    viruses, fungi and parasites no longer respond to
+                    antimicrobial medicines. As a result, infections can
+                    become more difficult to treat, increasing the risk
+                    of disease spread, severe illness and death.
+                </p>
+
+                <p>
+                    Everyone has a role in preventing AMR. Use antibiotics
+                    only when prescribed by a qualified healthcare
+                    professional, follow medical advice, maintain good
+                    hygiene and help prevent infections.
+                </p>
+            </div>
+
+            <!-- YouTube Video -->
+            <div class="card">
+                <h3>Learn About AMR – Video</h3>
+
+                <div class="media-frame">
+                    <iframe
+                        src="https://www.youtube.com/embed/1a4ywWibiq8"
+                        title="Introduction to antimicrobial resistance"
+                        loading="lazy"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+
+                <p class="media-fallback">
+                    If the video does not play, watch it directly on
+                    <a
+                        href="https://www.youtube.com/watch?v=1a4ywWibiq8"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        YouTube
+                    </a>.
+                </p>
+            </div>
+
+            <!-- WHO AMR Fact Sheet -->
+            <div class="card">
+                <h3>AMR Facts – World Health Organization (WHO)</h3>
+
+                <p>
+                    Read the WHO fact sheet to understand the causes,
+                    impact and prevention of antimicrobial resistance.
+                </p>
+
+                <div class="media-frame">
+                    <iframe
+                        src="https://www.who.int/news-room/fact-sheets/detail/antimicrobial-resistance"
+                        title="WHO antimicrobial resistance fact sheet"
+                        loading="lazy"
+                        referrerpolicy="strict-origin-when-cross-origin">
+                    </iframe>
+                </div>
+
+                <p class="media-fallback">
+                    If the fact sheet does not display here, open it directly:
+                    <a
+                        href="https://www.who.int/news-room/fact-sheets/detail/antimicrobial-resistance"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        WHO – Antimicrobial Resistance Fact Sheet
+                    </a>.
+                </p>
+            </div>
+        </section>
+
+        <!-- TAB 2: PLEDGE -->
+        <section
+            id="pledge"
+            class="tab-content"
+            hidden
+        >
+            <h2>AMR Awareness Pledge</h2>
+
+            <div class="card">
+                <p>
+                    I pledge to act responsibly and contribute to preventing
+                    antimicrobial resistance.
+                </p>
+
+                <div class="pledge-message">
+                    <h3>Pledges for Adults and Families</h3>
+        <ul class="pledge-list">
+          <h4>For minor illnesses: </h4>
+		  <li>Use antibiotics and other antimicrobials only when prescribed by a qualified healthcare professional.</li>
+          <li>Don't ask for antibiotics for coughs, colds, sore throats, or flu, since these are viral infections..</li>
+		  <h4>For prescription adherence:</h4>
+          <li>Always take antibiotics exactly as prescribed, never skip doses, and never save them for future use.</li>
+          <h4>For self-care:</h4>
+		  <li>Talk to a pharmacist first for advice on treating cold and flu symptoms without a doctor's prescription.</li>
+          <h4>For hygiene:</h4>
+		  <li>Wash hands regularly with soap and water to prevent the spread of infections.</li>
+        </ul>
+		<h3>Pledges for Pet Owners</h3>
+        <ul class="pledge-list">
+          <h4>For veterinary care: </h4>
+		  <li>Follow your vet's advice exactly and do not demand antibiotics if they state they are not necessary for your pet.</li>
+		  <h4>For administration:</h4>
+          <li>Never give human medicines or leftover antibiotics to your pets.</li>
+        </ul>
+		<h3>Pledges for Prescribers (Doctors, Consultants, & GPs)</h3>
+        <ul class="pledge-list">
+          <h4>For diagnostics: </h4>
+		  <li>Use local prescribing guidelines and diagnostic tools (like CRP testing) to confirm infection types before ordering antibiotics.</li>
+		  <h4>For delayed prescriptions:</h4>
+          <li>Use delayed or post-dated prescriptions where appropriate for self-limiting conditions.</li>
+          <h4>For review:</h4>
+		  <li>Review antibiotic prescriptions after 48 to 72 hours to step down, switch to oral, or stop treatment completely.</li>
+        </ul>
+		<h3>Pledges for Pharmacists & Pharmacy Teams</h3>
+        <ul class="pledge-list">
+          <h4>For patient education: </h4>
+		  <li>Talk to patients about the normal duration of common self-limiting infections (like a cough lasting up to 3 weeks).</li>
+		  <h4>For symptom management:</h4>
+          <li>Recommend evidence-based over-the-counter remedies to treat symptoms instead of antibiotics.</li>
+          <h4>For disposal:</h4>
+		  <li>Encourage patients to return unused antibiotics to the pharmacy for safe disposal rather than throwing them in the bin.</li>
+        </ul>
+		<h3>Pledges for Nurses, Midwives, & Allied Health</h3>
+        <ul class="pledge-list">
+          <h4>For infection control: </h4>
+		  <li>Strictly adhere to hand hygiene and standard infection prevention protocols to stop the spread of resistant bugs.</li>
+		  <h4>For communication:</h4>
+          <li> Educate patients and their families on why antibiotics do not work against viral infections like colds and flu..</li>
+        </ul>
+		<h3>Pledges for Veterinary Professionals</h3>
+        <ul class="pledge-list">
+        <h4>For animal health: </h4>
+		  <li>Follow the highest standards of veterinary stewardship by using narrow-spectrum antibiotics as a first-line treatment only when necessary.</li>
+        </ul>
+                </div>
+
+                <p>
+                    <strong>
+                        Together, we can preserve the effectiveness of
+                        antimicrobials for future generations.
+                    </strong>
+                </p>
+            </div>
+        </section>
+
+        <!-- TAB 3: PRESS RELEASE -->
+        <section
+            id="press-release"
+            class="tab-content"
+            hidden
+        >
+            <h2>Press Release</h2>
+
+            <div class="press-release-card">
+                <h3>Government of India – Press Information Bureau</h3>
+
+                <p>
+                    Access the official Government of India press release
+                    related to antimicrobial resistance and the responsible
+                    use of antimicrobial medicines.
+                </p>
+
+                <p>
+                    The PIB page may not permit display inside an embedded
+                    frame because of its website security settings. Use the
+                    link below to read the release on the official website.
+                </p>
+
+                <a
+                    class="primary-link"
+                    href="https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1738156&amp;reg=48&amp;lang=2"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Read Official PIB Press Release
+                </a>
+            </div>
+        </section>
+
+        <!-- TAB 4: UPLOAD CHECKPOINT PHOTOS -->
+        <section
+            id="upload-checkpoint"
+            class="tab-content"
+            hidden
+        >
+            <h2>Upload Your Checkpoint</h2>
+
+            <div class="upload-card">
+                <h3>Checkpoint Photo Gallery</h3>
+
+                <p>
+                    Upload photos from your AMR awareness activities,
+                    checkpoints, campaigns or events. Your photos will be
+                    saved locally in this browser.
+                </p>
+
+                <div class="upload-controls">
+                    <label for="checkpoint-files">
+                        <strong>Select checkpoint photos:</strong>
+                    </label>
+
+                    <input
+                        type="file"
+                        id="checkpoint-files"
+                        accept="image/*"
+                        multiple
+                    >
+                </div>
+
+                <p class="upload-help">
+                    Supported formats depend on your browser.
+                    Maximum file size: 15 MB per photo.
+                </p>
+
+                <p
+                    id="upload-status"
+                    role="status"
+                    aria-live="polite"
+                >
+                    Select photos to add them to your gallery.
+                </p>
+
+                <p>
+                    <span id="photo-count">0 photos</span>
+                </p>
+
+                <div
+                    id="checkpoint-gallery"
+                    class="photo-gallery"
+                    aria-label="Uploaded checkpoint photos"
+                >
+                    <div
+                        class="empty-gallery"
+                        id="empty-gallery"
+                    >
+                        No photos yet. Upload photos to get started.
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>
+            AMR Awareness | Use Antimicrobials Responsibly |
+            Protect Medicines for Future Generations
+        </p>
+    </footer>
+
+    <!-- Website JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
